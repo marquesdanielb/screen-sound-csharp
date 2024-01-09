@@ -51,25 +51,7 @@ A classe LinqOrder contém métodos estáticos para ordenar e exibir listas de a
 O arquivo Program.cs na raiz do projeto utiliza as classes mencionadas acima para interagir com uma API de músicas. O código faz solicitações HTTP, deserializa a resposta em uma lista de músicas e realiza operações de filtragem e ordenação.
 
 # 5. Diagrama de Classes UML
-
-+------------------+        +---------------------+        +-------------------+
-|     Musica       |        | MusicasPreferidas   |        |    LinqFilter     |
-+------------------+        +---------------------+        +-------------------+
-| - tonalidades[]  |        | - Nome              |        | + FiltrarTodos... |
-| + Nome           |        | - ListaDeMusicas... |        | + FiltrarArtist... |
-| + Artista        |        | + AdicionarMusic... |        | + FiltrarMusicas...|
-| + Duracao        |        | + ExibirMusicasF... |        +-------------------+
-| + Genero         |        | + GerarArquivoJson()| 
-| + Key            |        +---------------------+
-| + Tonalidade     |
-| + ExibirDetalhe...
-+------------------+
-
-+------------------+
-|   LinqOrder      |
-+------------------+
-| + ExibirListaDe...
-+------------------+
+![Diagrama de Classes UML](../media/diagrama-uml.png)
 
 # 6. Conclusão
 O projeto ScreenSound apresenta uma estrutura organizada, seguindo boas práticas da arquitetura limpa e de codificação em C#. A utilização de classes bem definidas e métodos específicos facilita a manutenção e extensão do código. A integração com uma API de músicas e a aplicação de filtros e ordenações demonstram a aplicação prática dos conceitos estudados. O uso adequado de namespaces e modificadores de acesso contribui para a encapsulação e modularidade do código.
