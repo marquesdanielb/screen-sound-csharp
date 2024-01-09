@@ -1,5 +1,5 @@
 # 1. Introdução
-O projeto ScreenSound_04 foi desenvolvido em C# com o objetivo de estudar as particularidades da linguagem. O sistema possui classes no diretório Modelos para representar músicas e listas de músicas preferidas, além de classes no diretório Filtros para realizar operações de filtragem e ordenação nas músicas. O arquivo Program.cs na raiz do projeto contém o código principal que utiliza essas classes para interagir com uma API de músicas.
+O projeto ScreenSound foi desenvolvido em C# com o objetivo de estudar as particularidades da linguagem. O sistema possui classes no diretório Modelos para representar músicas e listas de músicas preferidas, além de classes no diretório Filtros para realizar operações de filtragem e ordenação nas músicas. O arquivo Program.cs na raiz do projeto contém o código principal que utiliza essas classes para interagir com uma API de músicas.
 
 # 2. Modelos
 
